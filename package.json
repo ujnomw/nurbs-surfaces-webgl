@@ -1,7 +1,7 @@
 {
-  "name": "threejs-bare-example",
+  "name": "NURBs surfaces demo",
   "version": "1.0.0",
-  "description": "fork it and use as a template for your questions or experiments.",
+  "description": "Nurbs surfaces interactive demo created for my computer graphics course",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
