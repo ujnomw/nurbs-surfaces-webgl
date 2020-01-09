@@ -93,14 +93,6 @@ class Example {
     });
     this.points = this.vertices3.map(v => new THREE.Vector3().fromArray(v));
     const step = 0.001*4;
-    /*for (let t = 0; t <= 2; t += step) {
-      const vertex = new THREE.Vector3(0, 0, 0);
-      for (let i = 0; i < this.vertices2.length; i++) {
-        vertex.x += this.points[i].x * N(i, k, t, this.knot1);
-        vertex.y += this.points[i].y * N(i, k, t, this.knot1);
-      }
-      this.nurbsGeometry.vertices.push(vertex);
-    }*/
     for (let u =0; u <= 1; u+= step){
       for (let w = 0; w<= 2; w+= step){
         const vertex = new THREE.Vector3(0, 0, 0);
